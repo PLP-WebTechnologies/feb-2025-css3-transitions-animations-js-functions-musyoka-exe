@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CSS Animations & localStorage</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Animated Page with Preferences</h1>
+  </header>
+
+  <!-- Theme Toggle -->
+  <section class="box">
+    <h2>Toggle Theme</h2>
+    <button id="themeBtn">Switch to Dark Mode</button>
+  </section>
+
+  <!-- Animated Box -->
+  <section class="box">
+    <h2>CSS Animation Trigger</h2>
+    <div id="animatedBox"></div>
+    <button id="animateBtn">Start Animation</button>
+  </section>
+
+  <!-- Save Message -->
+  <section class="box">
+    <h2>Save Your Message</h2>
+    <input type="text" id="userMessage" placeholder="Enter a message" />
+    <button id="saveMessageBtn">Save Message</button>
+    <p id="savedMessageDisplay"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
